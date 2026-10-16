@@ -1023,10 +1023,11 @@
           야간 생활지도 및 안전 당직 순번표
         </h2>
 
-        <p class="text-xs text-slate-500 mb-4">
-          날짜는 취침 시작일과 다음 날 아침을 함께 표시했습니다.
-          별도 지원 객실은 이재숙 교사가 담당합니다.
-        </p>
+        <p class="text-xs text-slate-500 mb-4 leading-relaxed">
+  날짜는 실제 근무하는 날짜를 기준으로 표시했습니다.
+  자정 이후 근무는 다음 날짜 행에서 확인하세요.
+  별도 지원 객실은 이재숙 특수지도사가 담당합니다.
+</p>
 
         <div class="space-y-4">
           <div
@@ -1090,78 +1091,154 @@
           </div>
 
           <div class="overflow-x-auto rounded-xl border border-slate-200">
-            <table class="w-full min-w-[820px] text-left border-collapse">
-              <caption class="sr-only">
-                날짜 및 시간대별 야간 생활지도 담당자
-              </caption>
+  <table class="w-full min-w-[880px] text-left border-collapse">
+    <caption class="sr-only">
+      날짜 및 시간대별 야간 생활지도 담당자.
+      자정 이후 근무는 실제 근무 날짜 행에 표시합니다.
+    </caption>
 
-              <thead>
-                <tr
-                  class="bg-slate-100 border-b border-slate-200
-                         text-slate-700 font-bold text-xs"
-                >
-                  <th scope="col" class="p-3 text-center">숙박일</th>
-                  <th scope="col" class="p-3 text-center">17:00~22:00</th>
-                  <th scope="col" class="p-3 text-center">22:00~02:00</th>
-                  <th scope="col" class="p-3 text-center">02:00~05:00</th>
-                  <th scope="col" class="p-3 text-center">05:00~08:00</th>
-                  <th scope="col" class="p-3 text-center">주요 근무내용</th>
-                </tr>
-              </thead>
+    <thead>
+      <tr
+        class="bg-slate-100 border-b border-slate-200
+               text-slate-700 font-bold text-xs"
+      >
+        <th scope="col" class="p-3 text-center whitespace-nowrap">
+          근무일
+        </th>
+        <th scope="col" class="p-3 text-center whitespace-nowrap">
+          00:00~02:00
+        </th>
+        <th scope="col" class="p-3 text-center whitespace-nowrap">
+          02:00~05:00
+        </th>
+        <th scope="col" class="p-3 text-center whitespace-nowrap">
+          05:00~08:00
+        </th>
+        <th scope="col" class="p-3 text-center whitespace-nowrap">
+          16:30~22:00
+        </th>
+        <th scope="col" class="p-3 text-center whitespace-nowrap">
+          22:00~24:00
+        </th>
+        <th scope="col" class="p-3 text-center whitespace-nowrap">
+          주요 근무내용
+        </th>
+      </tr>
+    </thead>
 
-              <tbody class="divide-y divide-slate-100 text-center text-sm">
-                <tr>
-                  <th
-                    scope="row"
-                    class="p-3 font-semibold bg-slate-50 text-xs"
-                  >
-                    10월 19일 밤<br>
-                    ~ 10월 20일 아침
-                  </th>
-                  <td class="p-3 text-slate-700 font-medium">
-                    인솔교사 전원
-                  </td>
-                  <td class="p-3 text-indigo-700 font-bold">
-                    엄규현
-                  </td>
-                  <td class="p-3 text-emerald-700 font-bold">
-                    박보경
-                  </td>
-                  <td class="p-3 text-rose-700 font-bold">
-                    나진주
-                  </td>
-                  <td class="p-3 text-xs text-slate-500">
-                    안전생활지도 및 인원 점검
-                  </td>
-                </tr>
+    <tbody class="divide-y divide-slate-100 text-center text-sm">
+      <!-- 10월 19일 -->
+      <tr>
+        <th
+          scope="row"
+          class="p-3 font-semibold bg-slate-50
+                 text-xs whitespace-nowrap"
+        >
+          10월 19일
+        </th>
 
-                <tr>
-                  <th
-                    scope="row"
-                    class="p-3 font-semibold bg-slate-50 text-xs"
-                  >
-                    10월 20일 밤<br>
-                    ~ 10월 21일 아침
-                  </th>
-                  <td class="p-3 text-slate-700 font-medium">
-                    인솔교사 전원
-                  </td>
-                  <td class="p-3 text-rose-700 font-bold">
-                    나진주
-                  </td>
-                  <td class="p-3 text-indigo-700 font-bold">
-                    엄규현
-                  </td>
-                  <td class="p-3 text-emerald-700 font-bold">
-                    박보경
-                  </td>
-                  <td class="p-3 text-xs text-slate-500">
-                    안전생활지도 및 귀가 준비
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+        <td class="p-3 text-slate-400">
+          <span aria-hidden="true">—</span>
+          <span class="sr-only">해당 없음</span>
+        </td>
+
+        <td class="p-3 text-slate-400">
+          <span aria-hidden="true">—</span>
+          <span class="sr-only">해당 없음</span>
+        </td>
+
+        <td class="p-3 text-slate-400">
+          <span aria-hidden="true">—</span>
+          <span class="sr-only">해당 없음</span>
+        </td>
+
+        <td class="p-3 text-slate-700 font-medium whitespace-nowrap">
+          인솔교사 5인
+        </td>
+
+        <td class="p-3 text-indigo-700 font-bold whitespace-nowrap">
+          엄규현
+        </td>
+
+        <td class="p-3 text-xs text-slate-500">
+          학생 안전생활지도
+        </td>
+      </tr>
+
+      <!-- 10월 20일 -->
+      <tr>
+        <th
+          scope="row"
+          class="p-3 font-semibold bg-slate-50
+                 text-xs whitespace-nowrap"
+        >
+          10월 20일
+        </th>
+
+        <td class="p-3 text-emerald-700 font-bold whitespace-nowrap">
+          박보경
+        </td>
+
+        <td class="p-3 text-rose-700 font-bold whitespace-nowrap">
+          나진주
+        </td>
+
+        <td class="p-3 text-amber-800 font-bold whitespace-nowrap">
+          심명규
+        </td>
+
+        <td class="p-3 text-slate-700 font-medium whitespace-nowrap">
+          인솔교사 5인
+        </td>
+
+        <td class="p-3 text-rose-700 font-bold whitespace-nowrap">
+          나진주
+        </td>
+
+        <td class="p-3 text-xs text-slate-500">
+          학생 안전생활지도
+        </td>
+      </tr>
+
+      <!-- 10월 21일 -->
+      <tr>
+        <th
+          scope="row"
+          class="p-3 font-semibold bg-slate-50
+                 text-xs whitespace-nowrap"
+        >
+          10월 21일
+        </th>
+
+        <td class="p-3 text-amber-800 font-bold whitespace-nowrap">
+          심명규
+        </td>
+
+        <td class="p-3 text-indigo-700 font-bold whitespace-nowrap">
+          엄규현
+        </td>
+
+        <td class="p-3 text-emerald-700 font-bold whitespace-nowrap">
+          박보경
+        </td>
+
+        <td class="p-3 text-slate-400">
+          <span aria-hidden="true">—</span>
+          <span class="sr-only">해당 없음</span>
+        </td>
+
+        <td class="p-3 text-slate-400">
+          <span aria-hidden="true">—</span>
+          <span class="sr-only">해당 없음</span>
+        </td>
+
+        <td class="p-3 text-xs text-slate-500">
+          학생 안전생활지도
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
         </div>
       </div>
     </section>
